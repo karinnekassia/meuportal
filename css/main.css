@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 1%;
+    padding: 0;
+}  
+
+body {
+    background-color: rgba(214, 80, 22, 0.43);
+}
+
+p {
+    text-align: justify;
+}
+
+body > header {
+    background-color: rgba(184, 36, 36, 0.493);
+    color: #fff;
+    padding: 16px 0;
+}
+
+header .container {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+header li {
+    display: inline-block;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+header li a {
+    background-color: rgba(184, 36, 36, 0.493);
+    color: #fff;
+    text-decoration: none;
+    padding: 3px;
+    display: inline-block;
+    font-weight: 500;
+}
+
+header li a:hover {
+    text-decoration:underline;
+}
+
+.container {
+    width: 1024px;
+    margin: 1%;
+}
+
+.article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.article article img {
+    /* height: 180px; */
+    width: 100%;
+}
+
+.article article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+.article article a {
+    background-color: rgba(58, 2, 2, 0.493);
+    color: #070707;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.article article a:hover {
+    text-decoration:underline;
+}
+
+.article article p, 
+.article article a {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.article article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#sports {
+    background-color: bisque;
+}
+
+#economy {
+    background-color: rgb(245, 202, 150)
+}
+
+#tecnologia {
+    background-color: rgb(248, 194, 128);
+}
+
+#entreterimento {
+    background-color: rgb(240, 177, 101)
+}
+
+
